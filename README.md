@@ -18,20 +18,20 @@ RDX folder contains the Arduino IDE project.
 refer to `config.h` to see pins and edit settings
 
 ```
-// ===================== SYNTHESIZER ================================================================================
+// ===================== SYNTHESIZER =====================
 #define MAX_VOICES 8
 #define MAX_VOICES_PER_NOTE 2
 
-// ===================== MIDI PINS ==================================================================================
+// ===================== MIDI PINS =======================
 #define MIDI_IN         4      // if USE_MIDI_STANDARD is selected as MIDI_IN, this pin receives MIDI messages
 
-// ===================== I2S PINS ===================================================================================
+// ===================== I2S PINS ========================
 #define I2S_BCLK_PIN    5       // I2S BIT CLOCK pin (BCL BCK CLK)
 #define I2S_DOUT_PIN    6       // MCU Data Out: connect to periph. DATA IN (DIN D DAT)
 #define I2S_WCLK_PIN    7       // I2S WORD CLOCK pin (WCK WCL LCK)
 #define I2S_DIN_PIN     -1      // MCU Data In: connect to periph. DATA OUT (DOUT D SD)
 
-// ===================== GUI SETTINGS ==========================================================================
+// ===================== GUI SETTINGS ====================
 
 #define ACTIVE_STATE  LOW   // LOW = switch connects to GND, HIGH = switch connects to 3V3
 
