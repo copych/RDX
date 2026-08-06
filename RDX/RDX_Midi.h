@@ -321,7 +321,7 @@ void setupMidi() {
    // USB.usbVersion(0x0000);
     USB.productName("reface DX");
     USB.manufacturerName("Yamaha Corp.");
-    USB.usbClass(TUSB_CLASS_AUDIO);
+    USB.usbClass(0x00);
     USB.usbSubClass(0x00);
     USB.usbProtocol(0x00);
     USB.usbAttributes(0x80);
